@@ -37,6 +37,12 @@ class _ViewHomeState extends State<ViewHome> {
             trailing: Icon(Icons.widgets),
             onTap: () => Navigator.pushNamed(context, '/expanded'),
           ),
+          Divider(height: 5.0,),
+          ListTile(
+            title: Text("3 - Wrap"),
+            trailing: Icon(Icons.widgets),
+            onTap: () => Navigator.pushNamed(context, '/wrap'),
+          ),
           Divider(height: 5.0,)
           
         ],
