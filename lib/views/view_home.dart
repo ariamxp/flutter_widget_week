@@ -43,7 +43,13 @@ class _ViewHomeState extends State<ViewHome> {
             trailing: Icon(Icons.widgets),
             onTap: () => Navigator.pushNamed(context, '/wrap'),
           ),
-          Divider(height: 5.0,)
+          Divider(height: 5.0,),
+          ListTile(
+            title: Text("4 - Animated Container"),
+            trailing: Icon(Icons.widgets),
+            onTap: () => Navigator.pushNamed(context, '/animatedContainer'),
+          ),
+          Divider(height: 5.0,),
           
         ],
         ),
