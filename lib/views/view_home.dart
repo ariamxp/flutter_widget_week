@@ -32,6 +32,12 @@ class _ViewHomeState extends State<ViewHome> {
             onTap: () => Navigator.pushNamed(context, '/safeArea'),
           ),
           Divider(height: 5.0,),
+          ListTile(
+            title: Text("2 - Expanded"),
+            trailing: Icon(Icons.widgets),
+            onTap: () => Navigator.pushNamed(context, '/expanded'),
+          ),
+          Divider(height: 5.0,)
           
         ],
         ),

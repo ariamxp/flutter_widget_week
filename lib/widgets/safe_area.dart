@@ -26,7 +26,7 @@ class _WUnsafeState extends State<WUnsafe> {
     
   final window = Scaffold(
      appBar: AppBar(
-       title: Text("Flutter Widget Week"),
+       title: Text("Safe Area"),
      ),
      body: safeArea,
      
