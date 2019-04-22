@@ -4,6 +4,7 @@ import 'package:widget_week/widgets/safe_area.dart';
 import 'package:widget_week/widgets/expanded.dart';
 import 'package:widget_week/widgets/wrap.dart';
 import 'package:widget_week/widgets/animated_container.dart';
+import 'package:widget_week/widgets/opacity.dart';
 
 
 void main() {
@@ -22,6 +23,7 @@ void main() {
       '/expanded': (context) => WExpanded(),
       '/wrap': (context) => WWrap(),
       '/animatedContainer': (context) => WAnimatedContainer(),
+      '/opacity': (context) => WOpacity(),
     },
   );
 

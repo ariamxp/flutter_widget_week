@@ -50,6 +50,12 @@ class _ViewHomeState extends State<ViewHome> {
             onTap: () => Navigator.pushNamed(context, '/animatedContainer'),
           ),
           Divider(height: 5.0,),
+          ListTile(
+            title: Text("5 - Opacity"),
+            trailing: Icon(Icons.widgets),
+            onTap: () => Navigator.pushNamed(context, '/opacity'),
+          ),
+          Divider(height: 5.0,),
           
         ],
         ),
