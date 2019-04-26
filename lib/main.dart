@@ -5,6 +5,7 @@ import 'package:widget_week/widgets/expanded.dart';
 import 'package:widget_week/widgets/wrap.dart';
 import 'package:widget_week/widgets/animated_container.dart';
 import 'package:widget_week/widgets/opacity.dart';
+import 'package:widget_week/widgets/future_builder.dart';
 
 
 void main() {
@@ -24,6 +25,7 @@ void main() {
       '/wrap': (context) => WWrap(),
       '/animatedContainer': (context) => WAnimatedContainer(),
       '/opacity': (context) => WOpacity(),
+      '/futureBuilder': (context) => WFutureBuilder(),
     },
   );
 

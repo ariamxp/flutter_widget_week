@@ -56,6 +56,12 @@ class _ViewHomeState extends State<ViewHome> {
             onTap: () => Navigator.pushNamed(context, '/opacity'),
           ),
           Divider(height: 5.0,),
+          ListTile(
+            title: Text("6 - Future Builder"),
+            trailing: Icon(Icons.widgets),
+            onTap: () => Navigator.pushNamed(context, '/futureBuilder'),
+          ),
+          Divider(height: 5.0,),
           
         ],
         ),

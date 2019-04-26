@@ -7,23 +7,6 @@ class WWrap extends StatefulWidget {
 class _WWrapState extends State<WWrap> {
   @override
   Widget build(BuildContext context) {
-   final box1 = Container(
-     margin: EdgeInsets.all(2),
-     width: double.infinity,
-     height: 100,
-     decoration: BoxDecoration(
-       color: Colors.green
-     ),
-   );
-
-   final box2 = Container(
-     margin: EdgeInsets.all(2),
-     width: double.infinity,
-     height: 100,
-     decoration: BoxDecoration(
-       color: Colors.yellow
-     ),
-   );
 
    final box = Container(
      margin: EdgeInsets.all(2),
@@ -34,8 +17,6 @@ class _WWrapState extends State<WWrap> {
      ),
      child: null,
    );
-
- 
   
   final content = Wrap(
     direction: Axis.horizontal,
