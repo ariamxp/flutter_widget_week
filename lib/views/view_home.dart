@@ -62,7 +62,12 @@ class _ViewHomeState extends State<ViewHome> {
             onTap: () => Navigator.pushNamed(context, '/futureBuilder'),
           ),
           Divider(height: 5.0,),
-          
+          ListTile(
+            title: Text("7 - Fade Transition"),
+            trailing: Icon(Icons.widgets),
+            onTap: () => Navigator.pushNamed(context, '/fadeTransition'),
+          ),
+          Divider(height: 5.0,),
         ],
         ),
       )
