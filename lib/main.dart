@@ -7,6 +7,7 @@ import 'package:widget_week/widgets/animated_container.dart';
 import 'package:widget_week/widgets/opacity.dart';
 import 'package:widget_week/widgets/future_builder.dart';
 import 'package:widget_week/widgets/fade_transition.dart';
+import 'package:widget_week/widgets/floating_action_button.dart';
 
 
 void main() {
@@ -28,6 +29,7 @@ void main() {
       '/opacity': (context) => WOpacity(),
       '/futureBuilder': (context) => WFutureBuilder(),
       '/fadeTransition': (context) => WFadeTransition(),
+      '/floatingAnimation': (context) => WFloatingAnimation(),
     },
   );
 

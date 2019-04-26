@@ -68,6 +68,12 @@ class _ViewHomeState extends State<ViewHome> {
             onTap: () => Navigator.pushNamed(context, '/fadeTransition'),
           ),
           Divider(height: 5.0,),
+          ListTile(
+            title: Text("8 - Floating Action Button"),
+            trailing: Icon(Icons.widgets),
+            onTap: () => Navigator.pushNamed(context, '/floatingAnimation'),
+          ),
+          Divider(height: 5.0,),
         ],
         ),
       )
